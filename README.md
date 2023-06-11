@@ -13,7 +13,7 @@
 - [Prettier](https://prettier.io)
 - [Husky](https://github.com/typicode/husky)
 - [Commitlint](https://commitlint.js.org/#/)
-- [Lottie](https://lottiefiles.com/);
+- [Lottie](https://lottiefiles.com/)
 
 ## Getting Started
 
@@ -60,12 +60,14 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ```
 └── src
     ├── app
+    ├── assets
     ├── components
 ```
 
 | Folder         | Description                                          |
 | ----------     | -------------------------------------------          |
 | **app**        | Pages                                                |
+| **assets**     | Images and static files for application              |
 | **components** | Pages components                                     |
 
 ## Conventions
@@ -76,7 +78,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 └── <MyComponent>
     ├── <MyComponent>.tsx
     ├── <MyComponent>.spec.tsx
-    ├── <MyComponent>.stories.tsx
     └── index.ts
 ```
 
@@ -92,7 +93,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `build`: creates the production build version
 - `lint`: runs the linter in all components and pages
 - `cypress`: open cypress
-- `test`: run test file
+- `test`: run test files
 - `commit`: commit staged changes
 
 <p align="center">Made with 🤍 by Arthur</p>
