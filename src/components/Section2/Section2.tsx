@@ -85,11 +85,15 @@ export const Section2 = () => {
                 className="max-h-[329px] max-w-[300px] object-cover"
             />
             <div className="flex max-w-md flex-col items-start gap-5 font-sans text-base text-primary">
-                <p>Você é a mulher mais linda e incrível desse mundo inteiro.</p>
-                <p>Obrigado por compartilhar sua vida comigo, é um privilegio de ter ao meu lado.</p>
-                <p>Eu sou o homem mais abençoado do mundo por ser amado por ti.</p>
+                <p>
+                    Você é a mulher mais linda e incrível desse mundo inteiro, e eu sou o homem mais abençoado do mundo
+                    por te ter ao meu lado.
+                </p>
+                <p>
+                    É um privilégio fazer parte da sua vida, te conhecer da forma que eu conheço e ser amado por você da
+                    forma que você me ama.
+                </p>
             </div>
-            <p className="font-heading text-3xl text-primary">eu te amo infinitamente</p>
             <Image
                 src={gatito}
                 alt="gatito"
@@ -97,6 +101,7 @@ export const Section2 = () => {
                 placeholder="blur"
                 className="max-h-[329px] max-w-[300px] object-cover"
             />
+            <p className="font-heading text-3xl text-primary">Eu te amo infinitamente 🤍</p>
         </div>
     );
 };
