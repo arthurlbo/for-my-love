@@ -1,6 +1,6 @@
 ### Hi there! 👋
 
-> A template created to be reused in some projects saving a lot of time and make our lives easier 🤍
+> A love message for the love of my life 🤍
 
 ## What is inside?
 
@@ -8,12 +8,12 @@
 - [ReactJS](https://reactjs.org)
 - [TypeScript](https://www.typescriptlang.org)
 - [Tailwind](https://tailwindcss.com/)
-- [Storybook](https://storybook.js.org/docs/react/get-started/introduction)
 - [Cypress](https://www.cypress.io/)
 - [Eslint](https://eslint.org)
 - [Prettier](https://prettier.io)
 - [Husky](https://github.com/typicode/husky)
 - [Commitlint](https://commitlint.js.org/#/)
+- [Lottie](https://lottiefiles.com/);
 
 ## Getting Started
 
@@ -65,7 +65,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 | Folder         | Description                                          |
 | ----------     | -------------------------------------------          |
-| **app**        | Pages                                   |
+| **app**        | Pages                                                |
 | **components** | Pages components                                     |
 
 ## Conventions
@@ -84,7 +84,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 | --------------- | ---------------------------------------------- |
 | **.tsx**        | Component implementation                       |
 | **.spec.tsx**   | Component tests                                |
-| **.stories.tsx**| Storybook component                            |
 | **index.ts**    | File to export the component                   |
 
 ## Commands
@@ -92,7 +91,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `dev`: run development server
 - `build`: creates the production build version
 - `lint`: runs the linter in all components and pages
-- `storybook`: runs docs with storybook
 - `cypress`: open cypress
 - `test`: run test file
 - `commit`: commit staged changes
