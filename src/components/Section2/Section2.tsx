@@ -14,19 +14,17 @@ export const Section2 = () => {
     return (
         <div className="minH-[100vh] flex w-full flex-col items-center justify-center gap-8 bg-background px-5 pb-10 text-primary">
             <div className="flex flex-col items-center gap-10">
-                <p className="font-sans text-2xl">Hoje faz</p>
+                <p className="text-2xl">Hoje faz</p>
                 <Counter />
-                <p className="font-sans text-2xl">Desde</p>
+                <p className="text-2xl">Desde</p>
             </div>
             <p className="font-heading text-2xl uppercase">o audio de 7 minutos ✨</p>
             <Image src={audio} alt="audio" priority placeholder="blur" className="h-[64px] w-[319px]" />
             <Image src={bonk} alt="bonk" priority placeholder="blur" className="h-[175px] w-[256px]" />
-            <p className="max-w-xs text-center font-sans text-2xl leading-tight">
-                A partir desse momento, tudo mudou !
-            </p>
+            <p className="max-w-xs text-center text-2xl leading-tight">A partir desse momento, tudo mudou !</p>
             <Lottie />
             <Image src={us} alt="us" priority placeholder="blur" className="max-h-[329px] max-w-[300px] object-cover" />
-            <div className="flex max-w-md flex-col items-start gap-5 font-sans text-base text-primary">
+            <div className="flex max-w-md flex-col items-start gap-5 text-base">
                 <p>Eu agradeço a Deus todos os dias da minha vida por ter alguém tão especial ao meu lado.</p>
                 <p>
                     Eu sinto um orgulho imenso em te conhecer da forma que eu conheço, e ser amado por você da forma que
@@ -62,7 +60,7 @@ export const Section2 = () => {
                 placeholder="blur"
                 className="max-h-[329px] max-w-[300px] object-cover"
             />
-            <div className="flex max-w-md flex-col items-start gap-5 font-sans text-base text-primary">
+            <div className="flex max-w-md flex-col items-start gap-5 text-base">
                 <p>
                     Eu quero presenciar todos os seus sonhos se tornando realidade. Quero estar ao seu lado em cada
                     momento, seja ele bom ou ruim, seja na benção ou na provação, eu sempre estarei contigo.
