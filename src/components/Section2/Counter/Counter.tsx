@@ -32,7 +32,7 @@ export const Counter = () => {
     setInterval(updateDate, 1000);
 
     return (
-        <div data-testid="counter" className="flex flex-col items-center text-center font-heading text-2xl">
+        <div data-testid="counter" className="flex flex-col items-center text-center font-heading text-3xl">
             <p>{`${days} dias, ${hours} horas, `}</p>
             <p>{`${minutes} minutos e ${seconds} segundos`}</p>
         </div>
