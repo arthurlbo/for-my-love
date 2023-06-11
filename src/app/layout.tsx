@@ -5,8 +5,7 @@ const concert = Concert({ subsets: ["latin"], weight: "400", variable: "--font-c
 const poppins = Poppins({ subsets: ["latin"], weight: "400", variable: "--font-poppins" });
 
 export const metadata = {
-    title: "arthurlbo | Next TypeScript Template",
-    description: "A simple Next template using Next, Typescript, Tailwind, Cypress and other tools!",
+    title: "For My Love 🤍",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
