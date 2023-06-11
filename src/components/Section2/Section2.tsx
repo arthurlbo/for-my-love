@@ -101,7 +101,7 @@ export const Section2 = () => {
                 placeholder="blur"
                 className="max-h-[329px] max-w-[300px] object-cover"
             />
-            <p className="font-heading text-3xl text-primary">Eu te amo infinitamente 🤍</p>
+            <p className="text-center font-heading text-3xl text-primary">Eu te amo infinitamente 🤍</p>
         </div>
     );
 };
