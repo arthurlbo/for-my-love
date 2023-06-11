@@ -9,16 +9,12 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                background: "#08070b",
-                hover: "#212024",
-            },
-
-            backgroundImage: {
-                "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-                "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+                background: "#E8E8E8",
+                primary: "#000",
             },
             fontFamily: {
-                sans: ["Poppins, sans-serif"],
+                sans: "var(--font-poppins)",
+                heading: "var(--font-concert) ",
             },
         },
     },
