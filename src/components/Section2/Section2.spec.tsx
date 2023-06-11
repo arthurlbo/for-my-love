@@ -23,13 +23,13 @@ describe("<Section2 />", () => {
 
     it("should render the images with the correct attributes", () => {
         cy.get("img")
-            .should("have.length", 6) // Verifica se existem 4 imagens
+            .should("have.length", 5) // Verifica se existem 4 imagens
             .each(($img) => {
                 expect($img).to.have.attr("alt"); // Verifica se todas as imagens têm o atributo "alt"
             });
     });
 
     it("should render the final love declaration", () => {
-        cy.contains("eu te amo infinitamente").should("be.visible");
+        cy.contains("Eu te amo infinitamente").should("be.visible");
     });
 });

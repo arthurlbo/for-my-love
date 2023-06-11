@@ -8,7 +8,6 @@ import bonk from "../../assets/bonk.png";
 import us from "../../assets/us.jpg";
 import build from "../../assets/build.jpg";
 import mylove from "../../assets/mylove.jpg";
-import gatito from "../../assets/gatito2.jpg";
 
 export const Section2 = () => {
     return (
@@ -84,7 +83,7 @@ export const Section2 = () => {
                 placeholder="blur"
                 className="max-h-[329px] max-w-[300px] object-cover"
             />
-            <div className="flex max-w-md flex-col items-start gap-5 font-sans text-base text-primary">
+            <div className="flex max-w-md flex-col items-start gap-5 font-sans text-base">
                 <p>
                     Você é a mulher mais linda e incrível desse mundo inteiro, e eu sou o homem mais abençoado do mundo
                     por te ter ao meu lado.
@@ -94,14 +93,8 @@ export const Section2 = () => {
                     forma que você me ama.
                 </p>
             </div>
-            <Image
-                src={gatito}
-                alt="gatito"
-                priority
-                placeholder="blur"
-                className="max-h-[329px] max-w-[300px] object-cover"
-            />
-            <p className="text-center font-heading text-3xl text-primary">Eu te amo infinitamente 🤍</p>
+            <p className="text-center font-heading text-3xl">Eu te amo infinitamente</p>
+            <p className="text-6xl">🤍</p>
         </div>
     );
 };
